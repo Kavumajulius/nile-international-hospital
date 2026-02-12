@@ -1,0 +1,29 @@
+# Firebase Configuration
+# Copy this file to .env and fill in your values
+# Get these values from: https://console.firebase.google.com/
+# Project Settings > General > Your apps > Web app
+
+# REQUIRED: Firebase Configuration
+VITE_FIREBASE_API_KEY=your-api-key-here
+VITE_FIREBASE_AUTH_DOMAIN=your-project-id.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_STORAGE_BUCKET=your-project-id.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+VITE_FIREBASE_APP_ID=your-app-id
+
+# OPTIONAL: Firebase Realtime Database URL (if using Realtime Database)
+# VITE_FIREBASE_DATABASE_URL=https://your-project-id-default-rtdb.firebaseio.com
+
+# OPTIONAL: Session timeout (seconds until session expires)
+# Default: 3600 (1 hour)
+# VITE_SESSION_TIMEOUT=3600
+
+# OPTIONAL: Whop Payment Plan IDs (get from Whop dashboard)
+# VITE_WHOP_PLAN_STARTER=plan_xxxxxxxxx  # $25 plan
+# VITE_WHOP_PLAN_GROWTH=plan_xxxxxxxxx   # $50 plan
+# VITE_WHOP_PLAN_PREMIUM=plan_xxxxxxxxx  # $125 plan
+
+# OPTIONAL: Admin Configuration (comma-separated)
+# VITE_ADMIN_EMAILS=admin@example.com,admin2@example.com
+# VITE_ADMIN_DOMAINS=company.com,admin-domain.org
+

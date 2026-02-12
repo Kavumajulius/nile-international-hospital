@@ -1,0 +1,7 @@
+{
+  "name": "Dateline",
+  "description": "An AI-powered app to help users improve dating and relationship conversation skills through voice-based simulations and personalized feedback.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
